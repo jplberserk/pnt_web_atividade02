@@ -1,0 +1,16 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quadrado {
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+}
+
+.quadrado:hover {
+    background-color: darkorchid;
+}

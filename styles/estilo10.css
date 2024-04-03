@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    animation: imagemPosicao 5s ease-in-out;
+}
+
+@keyframes imagemPosicao {
+    from {
+        width: 200px;
+        height: 200px;
+    }
+    
+    to {
+        width: 70px;
+        height: 70px;
+        transform: translate(-900px, -400px)
+    }
+}

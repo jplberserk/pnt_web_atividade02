@@ -1,0 +1,60 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quadrado {
+    width: 200px;
+    height: 200px;
+   background-color: red;
+    animation: girar360 3s linear;
+}
+
+@keyframes girar360 {
+    0% {
+        transform: rotate(0deg);
+        background-color: red;
+    }
+
+    12.5% {
+        transform: rotate(45deg);
+        background-color: green;
+    }
+
+    25% {
+        transform: rotate(90deg);
+        background-color: blue;
+    }
+
+    37.5% {
+        transform: rotate(135deg);
+        background-color: cyan;
+    }
+
+    50% {
+        transform: rotate(180deg);
+        background-color: magenta;
+    }
+
+    62.5% {
+        transform: rotate(225deg);
+        background-color: yellow;
+    }
+
+    75% {
+        transform: rotate(270deg);
+        background-color: black;
+    }
+
+    87.5% {
+        transform: rotate(315deg);
+        background-color: darksalmon;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        background-color: darkviolet;
+    }
+}

@@ -1,0 +1,20 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: darkblue;
+    transition: all 1.5s ease-in-out;
+}
+
+.circulo:hover {
+    background-color: darkorchid;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    border-radius: 100%;
+    animation: pulando 3s linear;
+}
+
+@keyframes pulando {
+    0% {
+        transform: translateX(100px);
+    }
+
+    25% {
+        transform: translateX(-100px);
+    }
+
+    50% {
+        transform: translateX(100px);
+    }
+
+    75% {
+        transform: translateX(-100px);
+    }
+
+    100% {
+        transform: translateX(100px);
+    }
+}

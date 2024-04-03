@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quadrado01 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: mover 2s linear infinite 2s;
+}
+
+.quadrado02 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    animation: mover 4s linear infinite 4s;
+}
+
+.quadrado03 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    animation: mover 6s linear infinite 6s;
+}
+
+@keyframes mover {
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        top: -25px;
+    }
+
+    100% {
+        top: 50px;
+    }
+}

@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: darkblue;
+    position: absolute;
+    animation: moverParaDireita 4s linear;
+}
+
+@keyframes moverParaDireita {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: calc(500px);
+    }
+}

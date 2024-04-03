@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.formulario-login{
+    position: absolute;
+    border-radius: 5px;
+    animation: aparecerPorCima 5s linear;
+}
+
+@keyframes aparecerPorCima{
+    from {
+        transform: translateY(-400px);
+    }
+
+    to {
+        transform: translate(0px);
+    }
+}

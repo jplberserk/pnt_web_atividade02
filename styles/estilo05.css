@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quadrado {
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+    position: absolute;
+    animation: girar45 3s ease-in-out;
+}
+
+@keyframes girar45 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(45deg);
+    }
+}
