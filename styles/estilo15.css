@@ -10,27 +10,27 @@ body {
     height: 100px;
     background-color: darkblue;
     border-radius: 100%;
-    animation: pulando 3s linear;
+    animation: pulando 5s linear;
 }
 
 @keyframes pulando {
     0% {
-        transform: translateX(100px);
+        transform: translate(1000px);
     }
 
     25% {
-        transform: translateX(-100px);
+        transform: translateX(-1000px);
     }
 
     50% {
-        transform: translateX(100px);
+        transform: translateX(1000px);
     }
 
     75% {
-        transform: translateX(-100px);
+        transform: translateX(-1000px);
     }
 
     100% {
-        transform: translateX(100px);
-    }
+        transform: translateX(1000px);
+    }    
 }

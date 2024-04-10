@@ -14,7 +14,7 @@ body {
 @keyframes pulsar {
     0% {
         transform: scale(0.5);
-        background-color: darkblue;
+        background-color: darkred;
         border-radius: 100%;
     }
 

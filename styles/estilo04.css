@@ -11,15 +11,15 @@ body {
     border-radius: 100%;
     background-color: darkblue;
     position: absolute;
-    animation: moverParaDireita 4s linear;
+    animation: moverParaDireita 4s;
 }
 
 @keyframes moverParaDireita {
-    from {
-        left: 0%;
+    0% {
+        left: 0px;
     }
 
-    to {
-        left: calc(500px);
+    100% {
+        left: 500px;
     }
 }

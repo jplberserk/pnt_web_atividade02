@@ -13,11 +13,11 @@ body {
 }
 
 @keyframes aparecerPorCima{
-    from {
-        transform: translateY(-400px);
+    0% {
+        transform: translateY(-600px);
     }
 
-    to {
+    100% {
         transform: translate(0px);
     }
 }

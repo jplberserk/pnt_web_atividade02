@@ -13,12 +13,12 @@ body {
 }
 
 @keyframes imagemPosicao {
-    from {
+    0% {
         width: 200px;
         height: 200px;
     }
     
-    to {
+    100% {
         width: 70px;
         height: 70px;
         transform: translate(-900px, -400px)
